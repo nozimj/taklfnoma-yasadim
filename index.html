@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</head>
+<body>
+    <div class="invitation-container">
+        <header>
+            <h1>Kozimjonni tavvalud kuni!</h1>
+        </header>
+        
+        <section class="invitation-details" id="invitationDetails">
+            <h2>Sizni Taklif etamiz</h2>
+            <p>Salom. Sizni Kozimjonni tavallud topgan kunlariga taklif qilib qolamiz!</p>
+            <p><strong>Sana:</strong> Iyun 17 ,2025</p>
+            <p><strong>Soat:</strong> 12:00 </p>
+            <p><strong>Joy:</strong> Grand Ballroom, City Hotel</p>
+        </section>
+        
+        <section class="countdown" id="countdownSection">
+            <h2>Tugulgan kun boshlanishiga</h2>
+            <div id="timer">
+                <div class="time-unit">
+                    <div id="days" class="value">00</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time-unit">
+                    <div id="hours" class="value">00</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time-unit">
+                    <div id="minutes" class="value">00</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time-unit">
+                    <div id="seconds" class="value">00</div>
+                    <div class="label">Seconds</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map">
+            <h2>Qayerda</h2>
+            <div id="map"></div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Wedding Invitation. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
